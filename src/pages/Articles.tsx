@@ -1,6 +1,6 @@
 import { useMemo, useState } from "react";
 import { Link } from "react-router-dom";
-import type { Article } from "../types";
+import type { Article } from "../type";
 import { loadArticles, saveArticles, uid } from "../utils/storage";
 import SearchBar from "../components/SearchBar";
 import ArticleList from "../components/ArticleList";

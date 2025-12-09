@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import type { Article } from "../types";
+import type { Article } from "../type";
 
 type Props = {
   initial?: Partial<Article>;

@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import type { Article } from "../types";
+import type { Article } from "../type";
 import { loadArticles, saveArticles, uid } from "../utils/storage";
 import ArticleForm from "../components/ArticleForm";
 

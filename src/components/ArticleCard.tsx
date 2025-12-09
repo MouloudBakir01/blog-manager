@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import type { Article } from "../types";
+import type { Article } from "../type";
 
 type Props = {
   article: Article;
